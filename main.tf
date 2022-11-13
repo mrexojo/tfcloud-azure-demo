@@ -10,11 +10,12 @@ terraform {
 }
 # Provideer declaration
 provider "azurerm" {
-    
-    subscription_id = var.subscriptionid
-    client_id = var.clientid
-    client_secret = var.clientsecret
-    tenant_id = var.tenantid
+    features {}
+  
+    subscription_id = var.ARM_SUBSCRIPTION_ID
+    client_id = var.ARM_CLIENT_ID
+    client_secret = var.ARM_CLIENT_SECRET
+    tenant_id = var.ARM_TENANT_ID
 }
 
 #--------------------------------------
