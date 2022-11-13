@@ -1,12 +1,12 @@
-variable "clientid" {
+variable "ARM_CLIENT_ID" {
     type = string
 }
-variable "clientsecret" {
+variable "ARM_CLIENT_SECRET" {
     type = string
 }
-variable "subscriptionid" {
+variable "ARM_SUBSCRIPTION_ID" {
     type = string
 }
-variable "tenantid" {
+variable "ARM_TENANT_ID" {
     type = string
 }
