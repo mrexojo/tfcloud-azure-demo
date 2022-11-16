@@ -1,12 +1,12 @@
 variable "ARM_CLIENT_ID" {
-  default = "prueba"
+    type = string
 }
 variable "ARM_CLIENT_SECRET" {
-    default = "prueba"
+    type = string
 }
 variable "ARM_SUBSCRIPTION_ID" {
-    default = "prueba"
+    type = string
 }
 variable "ARM_TENANT_ID" {
-    default = "prueba"
+    type = string
 }
